@@ -9,6 +9,7 @@ void OnUpdateFileLength(int id, long *contentLength, long *currentLength) {
 }
 
 
+
 int main(int argc, char *argv[]) {
   CgoRegisterCallback(OnUpdateFileLength);
 
